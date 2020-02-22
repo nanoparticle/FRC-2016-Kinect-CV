@@ -15,3 +15,6 @@ The kinect has three video outputs: RGB, IR, and depth. The software leverages a
 After some experimentation, I discovered that the IR laser projector reflected very well off of the retroreflective tape, which allowed the IR camera to perform similarly to the RGB camera. The IR processor provides a mask that excludes any areas that do not reflect the IR light. In conjunction with the RGB mask, this is very effective at discerning the target amongst all the noise.
 
 Finally, the depth output is utilized to determine the target's distance, and provide input to a PID loop that maneuvers the robot to the correct distance from the target.
+
+### Attributions:
+Special thanks go to Atul R. for developing an implementation of the C++ imshow function in Java: https://github.com/master-atul/ImShow-Java-OpenCV
