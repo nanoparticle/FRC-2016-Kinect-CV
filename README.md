@@ -1,4 +1,4 @@
-# Kinect Computer Vision for FRC 2016
+# FRC 2016 Kinect Computer Vision
 
 This program is designed to find a vision target, move and orient the robot to set up a trajectory,
 and then launch the projectile at the vision target.
